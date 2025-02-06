@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /* width: 100vw;
+  height: 100vh; */
+  flex-direction: column;
+}
+
+h1 {
+  margin: 50px;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1000px;
+  min-height: 100px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  min-width: 100vw;
+  min-height: 400px;
+  border: 2px solid rgb(36, 33, 33);
+  flex-direction: row;
+}
+
+.img_1 {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  background-image: url("./img/Croydon\ skyline\ 800x400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img_2 {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  background-image: url("./img/hexagon\ septentrio\ 800x400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img_3 {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  background-image: url("./img/tokyo\ japan\ 800x400.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
