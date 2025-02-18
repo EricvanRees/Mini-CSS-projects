@@ -1,12 +1,22 @@
-/* body {
-  background-color: burlywood;
-} */
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
 
 h1, h2, p {
   text-align: center;
 }
 
-#menu {
+.item p {
+  display: inline-block;
+  width: 75%;
+}
+
+.flavor {
+  text-align: left;
+  width: 25%;
+}
+
+.menu {
   width: 80%; 
   background-color: burlywood;
   /* step 26 */
