@@ -78,12 +78,14 @@ h1, h2 {
 
 .dessert, .flavor {
   display: flex; 
+  /* equivalent of text-align: left */
   justify-content: start;
   width: 75%;
 }
 
 .price {
   display: flex; 
+  /* equivalent of text-align: right */
   justify-content: end;
   width: 25%;
 }
