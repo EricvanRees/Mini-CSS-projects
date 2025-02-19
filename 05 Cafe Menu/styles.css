@@ -1,25 +1,113 @@
 body {
+  font-family: sans-serif;
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+ /*  To create a little more room around the menu, add 20px of space on the inside of the body element by using the padding property. */
+ padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* added flex items to display the menu items on the same line */
+article {
+  display: flex; 
+  
+}
+
+.established {
+  font-style: italic;
 }
 
 h1, h2, p {
   text-align: center;
+  
 }
 
-.item p {
-  display: inline-block;
-  width: 75%;
-}
-
-.flavor {
-  text-align: left;
-  width: 25%;
+/* adding width of 95% to have the items and prices a little closer to each other */
+section {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menu {
   width: 80%; 
   background-color: burlywood;
-  /* step 26 */
   margin-left: auto;
   margin-right: auto;  
+  padding: 20px;
+  /* a max-width property prevents it from growing too wide: */
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+}
+
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 { 
+  font-family: Impact, serif;
+}
+
+
+.item p {
+  /* places the items closer to each other:*/
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.dessert, .flavor {
+  display: flex; 
+  justify-content: start;
+  width: 75%;
+}
+
+.price {
+  display: flex; 
+  justify-content: end;
+  width: 25%;
+}
+
+footer {
+  font-size: 14px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
 }
